@@ -1,0 +1,28 @@
+.blue {
+    display: flex;
+    background-color: rgb(255, 254, 253);
+    height: 450px;
+    width: 300px;
+    border-radius: 150px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    animation-name: swap;
+    animation-duration: 4s;
+    transition: transform 0.5s;
+    animation-delay: 8s;
+}
+
+@keyframes swap{
+    from { background-color: rgb(255, 254, 253) }
+    to { background-color: rgb(78, 115, 172) }
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 100px;
+}
