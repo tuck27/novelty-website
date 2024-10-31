@@ -1,0 +1,16 @@
+.answer {
+    display: flex;
+    font-size: 350px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+    transition-property: width, height;
+    transition-duration: 2s;
+}
+
+div:hover {
+    width: 300px;
+    height: 300px;
+}
