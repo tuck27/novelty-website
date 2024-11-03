@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(255, 153, 255);
+}
+
+.blue {
+    display: flex;
+    transform: translate(100px, 100px) rotate(20deg);
+}
+.blue a {
+    color: rgb(65, 190, 19);
+    text-decoration: none;
+}
+
+.green {
+    display: flex;
+    transform: translate(100px, 100px) rotate(-20deg);
+}
+
+.green a {
+    color: rgb(0,140,255);
+    text-decoration: none;
+}
+

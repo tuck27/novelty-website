@@ -14,3 +14,12 @@ div:hover {
     width: 300px;
     height: 300px;
 }
+
+.answer a {
+    color: gold;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(251, 251, 212);
+}

@@ -26,3 +26,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 100px;
 }
+
+body {
+    background-color: aliceblue;
+}
